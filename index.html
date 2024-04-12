@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Khasia Alim's Skincare and Perfume</title>
+    <!-- BUNDLES - FONT AWESOME & BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/20c94df825.js" crossorigin="anonymous"></script>
+    <!-- CSS - SHORTCUT ICON & STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo-red.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- BOOTSTRAP BUNDLE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- --- -->
+    <div id="main-page">
+        <!-- NAV-BAR (HEADER) -->
+        <div class="header">
+            <div class="nav-bar container">
+                <input type="search" name="search" id="search" placeholder="Search">
+                <div id="image1">
+                    <a href="#"><img id="img1" src="images/logo-white.png" alt="LOGO-KHASIA-ALIM"></a>
+                </div>
+                <!-- MODAL (ICON-1) -->
+                <!-- SIGN UP - BUTTON -->
+                <button type="button" id="btn1" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <i class="fa-regular fa-user" style="color: #ac0000;"></i>
+                </button>
+
+                <!-- SIGN UP - FORM -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">SIGN UP</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <br />
+                                <label>Email <br /><input type="email" name="email" id="email" placeholder="Email"
+                                        required></label><br /><br />
+                                <label>Password <br /><input type="password" name="password" id="password"
+                                        placeholder="Password" required></label><br /><br /><br />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- OFFCANVAS (ICON-2) -->
+                <!-- SHOPPING - BUTTON -->
+                <button class="btn btn-primary" id="btn2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-shopping"
+                        style="color: #ac0000;"></i></button>
+                <!-- SHOPPING - FORM -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">YOUR CART</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        Your Cart is Currently Empty.<br/>
+                        <a href="pages/shop-all.html">Click here to continue shopping.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --- -->
+        <div class="body">
+            <!-- VIDEO-1 (BODY) SECTION-1 -->
+            <div class="video">
+                <video id="main-video" src="videos/video1.mp4" autoplay muted loop></video>
+            </div>
+            <!-- QUOTE (BODY) SECTION-2  -->
+            <div class="quote">
+                <h2 id="quote-heading">Be the best VERSION of you
+                    <!-- IMAGES (BODY) -->
+                    <div id="image-1">
+                        <img width="130px" src="images/sparkle1.png">
+                    </div>
+                    <div id="image-2">
+                        <img width="130px" src="images/sparkle2.png">
+                    </div>
+                    <div id="image-3">
+                        <img width="190px" src="images/quote.png">
+                    </div>
+                </h2>
+            </div>
+            <br />
+            <br />
+            <!-- SECTION-3 (BODY) -->
+            <div class="section-3">
+                <div class="box-1">
+                    <h2 id="choose-your-product" class="box-heading">CHOOSE YOUR PRODUCT</h2>
+                    <div class="cards container">
+                        <div class="card-1">
+                            <a class="product-a1" href="pages/skincare.html" target="_blank">
+                                <h3>SKINCARE</h3>
+                                <img src="images/skincare-card.png" width="300px">
+                            </a>
+                        </div>
+                        <div class="card-2">
+                            <a class="product-a1" href="pages/perfume.html" target="_blank">
+                                <h3>PERFUME</h3>
+                                <img src="images/perfume-card.png" width="300px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <!-- SECTION-4 (BODY) -->
+            <div class="section-4">
+                <div class="box-2">
+                    <h2 class="box-heading two">LATEST PRODUCTS</h2>
+                    <br />
+                    <br />
+                    <div class="products">
+                        <div class="product-1">
+                            <a class="product-a2" href="pages/skincare-product-detail-pages/serum-1.html" target="_blank">
+                                <div class="product-1-photo"><img class="product-1-photo"
+                                        src="images/products/serum/SERUM-1.png" width="360px"></div>
+                                <div class="product-1-information">
+                                    <p class="product-name">RED ENERGY Recovery Serum 50ml</p>
+                                    <p class="product-price">Rs.3,550.00 PKR</p>
+                                    <button class="purchasing-btn">Add to cart</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product-2">
+                            <a class="product-a2" href="pages/perfume-product-detail-pages/perfume-2-details.html" target="_blank">
+                                <div class="product-2-photo"><img class="product-2-photo"
+                                        src="images/products/perfumes/PERFUME-2.png" width="360px"></div>
+                                <div class="product-2-information">
+                                    <p class="product-name">KAYALI Eden Juicy Apple 100ml</p>
+                                    <p class="product-price">Rs.15,500.00 PKR</p>
+                                    <button class="purchasing-btn">Add to cart</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <!-- SECTION-5 (BODY) -->
+            <div class="section-5">
+                <div class="box-3">
+                    <button class="shop-btn"><a href="pages/shop-all.html" class="product-a3">SHOP ALL</a></button>
+                    <button class="choosing-btn"><a href="#choose-your-product" class="product-a3">CHOOSE YOUR
+                            PRODUCT</a></button>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <!-- FOOTER -->
+            <div class="footer">
+                <hr />
+                <br />
+                <div class="footer-box">
+                    <div id="footer-image">
+                        <img id="footer-img1" src="images/logo-red.png" alt="LOGO-KHASIA-ALIM">
+                    </div>
+                    <div class="footer-box1">
+                        <h2 class="footer-heading">Quick Links</h2>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="pages/shop-all.html">Shop All</a></li>
+                            <li><a href="pages/skincare.html">Skincare</a></li>
+                            <li><a href="pages/perfume.html">Perfume</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-box2">
+                        <h2 class="footer-heading">Contact Us</h2>
+                        <ul>
+                            <li class="bold"><b>Email:</b></li>
+                            <li>khasiaalim241211@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="footer-box3">
+                        <h2 class="footer-heading">Social Links</h2>
+                        <ul id="links">
+                            <li><a href="https://www.linkedin.com/in/khasia-alim-4b57342aa/"><i
+                                        class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;<a
+                                    href="https://www.instagram.com/khasiaalim/"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <hr />
+            <br />
+            <!-- END-OF-HOME-PAGE -->
+        </div>
+    </div>
+</body>
+
+</html>
